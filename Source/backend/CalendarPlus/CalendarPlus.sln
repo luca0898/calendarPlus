@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarPlus", "CalendarPlus.csproj", "{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. PRESENTATION", "1. PRESENTATION", "{C5A22954-0AC8-435E-9B35-1695A524BA36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. PRODUCT", "2. PRODUCT", "{BE9B630E-A300-41CB-87AE-6E92D2BFA149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarPlus.PRODUCT", "..\CalendarPlus.PRODUCT\CalendarPlus.PRODUCT.csproj", "{AB4F3142-B595-4A7C-AEC1-9877E5401562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. TESTS", "0. TESTS", "{A76A0F0F-982B-45DA-90BF-E243AA4B2C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarPlus.TESTS", "..\CalendarPlus.TESTS\CalendarPlus.TESTS.csproj", "{58F253A5-7FEF-46F1-9EA4-00FA37213151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4F3142-B595-4A7C-AEC1-9877E5401562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4F3142-B595-4A7C-AEC1-9877E5401562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4F3142-B595-4A7C-AEC1-9877E5401562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4F3142-B595-4A7C-AEC1-9877E5401562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F253A5-7FEF-46F1-9EA4-00FA37213151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F253A5-7FEF-46F1-9EA4-00FA37213151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F253A5-7FEF-46F1-9EA4-00FA37213151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F253A5-7FEF-46F1-9EA4-00FA37213151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B63D41C-C5D4-4145-A02E-BBFDA7CB9D9A} = {C5A22954-0AC8-435E-9B35-1695A524BA36}
+		{AB4F3142-B595-4A7C-AEC1-9877E5401562} = {BE9B630E-A300-41CB-87AE-6E92D2BFA149}
+		{58F253A5-7FEF-46F1-9EA4-00FA37213151} = {A76A0F0F-982B-45DA-90BF-E243AA4B2C65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8401284-C18D-4B0A-B702-A12682810548}
+	EndGlobalSection
+EndGlobal
