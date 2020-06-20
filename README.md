@@ -3,7 +3,7 @@
 This project was a school project that I developed in 2015 with the help of a team of colleagues.
 Basically it is an software to organize a massage clinic and it had the advantage of generating a clinical follow-up document for the patient.
 
-The final version was lost, but I managed to recover a prototype version and put it in the ``.\old_project`` folder
+The final version was lost, but I managed to recover a prototype version and put it in the ``.\old_project`` folder and check the [readme file](./old_project/README.md) to understand it
 
 The purpose of this repository is to rewrite this project so that I can test my progress over the past few years.
 
