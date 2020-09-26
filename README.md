@@ -1,4 +1,4 @@
-# Calendar-Plus
+# Calendar Plus
 
 This project was a school project that I developed in 2015 with the help of a team of colleagues.
 Basically it is an software to organize a massage clinic and it had the advantage of generating a clinical follow-up document for the patient.
