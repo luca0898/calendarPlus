@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CalendarPlus.Db.SQL.Migrations": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "luca"
+      }
+    }
+  }
+}
