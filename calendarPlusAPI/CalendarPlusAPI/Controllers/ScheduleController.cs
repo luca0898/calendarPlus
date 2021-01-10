@@ -33,6 +33,8 @@ namespace CalendarPlus.Controllers
         [SwaggerOperation(OperationId = "{entity}GetAll")]
         public async Task<IActionResult> Get([FromQuery] int skip, [FromQuery] int take, CancellationToken cancellationToken)
         {
+            take = (take <= 0) ? 50 : take;
+
             IEnumerable<Schedule> schedule = await _scheduleService.FindAll(cancellationToken, skip, take);
 
             IEnumerable<ScheduleViewModel> viewSchedules = _mapper.Map<IEnumerable<ScheduleViewModel>>(schedule);
